@@ -109,7 +109,7 @@ input[type=text] {
 if (!array_key_exists("data", $_FILES)) {
 	//display form
 ?>
-<form action="alerts.php" method="POST" enctype="multipart/form-data">
+<form action="./index.php" method="POST" enctype="multipart/form-data">
 <fieldset class="form-group">
 	<label for="data">File Upload</label>
 	<input type="file" name="data" id="data" class="form-control-file" />
