@@ -10,7 +10,7 @@
 <!doctype html>
 <html>
 <head>
-<title>Alert-zilla</title>
+<title>File Singe!</title>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
@@ -100,10 +100,10 @@ input[type=text] {
 </head>
 <body>
 <div class='container'>
-    <?php include('../nav.php'); ?>
-<br />
-<div class='page-header' id="topheader"><h1>Alert-zilla</h1></div>
-<a href="#alerts">Jump to Alerts</a>
+
+
+<div class='page-header' id="topheader"><h1>File Singe</h1></div>
+
 <?php
 //if form wasn't submitted, display it.
 if (!array_key_exists("data", $_FILES)) {
