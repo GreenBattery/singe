@@ -1,3 +1,3 @@
 # Singe
 
-some util scripts
+some util scripts we use.
