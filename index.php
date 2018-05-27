@@ -122,6 +122,6 @@ if (!array_key_exists("data", $_FILES)) {
 <?php
 }else {
  ?>
- <h2>File uploaded</h2>
+ <h2>File uploaded </h2>
  <?php
 }
