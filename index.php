@@ -124,4 +124,18 @@ if (!array_key_exists("data", $_FILES)) {
  ?>
  <h2>File uploaded </h2>
  <?php
+ echo "<h1>" . htmlentities($_FILES['data']['name']) . "</h1>";
+
+
+
+	$fname = $_FILES['data']['tmp_name']; //file uploaded, temp name.
+
+	$fh = fopen($fname, "r");
+	$headers = fgetcsv($fh);
+	var_dump($headers);
+
+	//loop over rest of file.
+	while ($data = fgetcsv($fh)) {
+	    echo "<img src='{$data[5]}' />\n";
+	}
 }
