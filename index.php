@@ -121,7 +121,7 @@ if (!array_key_exists("data", $_FILES)) {
 
 <?php
 }else {
- ?>
+
  <h2>File uploaded </h2>
  <?php
  echo "<h1>" . htmlentities($_FILES['data']['name']) . "</h1>";
@@ -138,4 +138,4 @@ if (!array_key_exists("data", $_FILES)) {
 	while ($data = fgetcsv($fh)) {
 	    echo "<img src='{$data[5]}' />\n";
 	}
-}
+} ?>
